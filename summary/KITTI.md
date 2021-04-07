@@ -27,13 +27,6 @@ FeaturesDict({
     }),
 })
 ```
-- image: 문장 단위 이미지 설명
-- image/filename : 파일 이름
-- name : class 이름 설명
-- bbox : xmin, ymin, xmax, ymax 위치(float32 type)
-- difficult, truncated 0,1 Bool 값으로 설명한다.
-- label : 클래스 이름 설명
-- pose : 객체 위치 설명 eg)right
 
 ## 활용 예
 딥러닝에 기반한 거리측정, 객체 탐지 기술, slam 알고리즘 모델의 학습데이터로 많이 사용되며 모델의 성능을 검증하는데에도 쓰인다. slam 기술이 상용화 될 경우
